@@ -7,4 +7,4 @@ notifications:
     recipients:
       - antonio@gonzalez.cr
 script:
-  - mvn org.jacoco:jacoco-maven-plugin:prepare-agent very
+  - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
